@@ -23,7 +23,8 @@ def split_data(combined, train, dev):
         line_count = len(lines)
 
     random.shuffle(lines)
-    train_count = 0.95 * line_count
+    print(line_count)
+    train_count = line_count - (11054 * 0.2)
 
     with open(combined) as f, open(train, 'w') as f_train, open(dev,
                                                                 'w') as f_dev:
@@ -39,12 +40,11 @@ def main():
     shake_modern = 'data/truth/modern_proc.txt'
     shake_original = 'data/truth/original_proc.txt'
 
-    source_file = shake_original
-    target_file = shake_modern
-    test_file = 'data/truth/trump1.txt'
+    target_file = shake_original
+    source_file = shake_modern
+    test_file = 'data/truth/trump.txt'
     gen_file = 'data/s_to_t/shake_fake_1'
     model = 'saved_models/model_TS_1'
-    iter_num = 0
     os.system('rm -f data/s_to_t/*')
     os.system('rm -f data/t_to_s/*')
     os.system('rm -f saved_models/*')
@@ -52,6 +52,7 @@ def main():
     train_data = 'data/temp_train.txt'
     dev_data = 'data/temp_dev.txt'
 
+    iter_num = 1
     while (True):
         print(f'---------{iter_num} iteration---------')
 
@@ -59,26 +60,26 @@ def main():
         read_parallel(source_file, target_file)
         split_data(combined, train_data, dev_data)
 
-        # Call transformer
+        # Train transformer
         train_args = f'--train {train_data} --dev {dev_data} --save {model}'.split(
         )
         transformer.main(train_args)
 
+        # Translate
         test_args = f'--load {model} --outfile {gen_file} {test_file}'.split()
         transformer.main(test_args)
 
-        # See if should continue
-
+        # Increase iteration, set new files
         iter_num += 1
-        target_file = gen_file
+        source_file = gen_file
         if iter_num % 2 == 0:
-            source_file = 'data/truth/all_proc1.txt'
-            test_file = 'data/truth/trump1.txt'
+            target_file = 'data/truth/all_proc.txt'
+            test_file = 'data/truth/trump.txt'
             gen_file = f'data/s_to_t/shake_fake_{math.ceil((iter_num + 1)/ 2)}'
             model = f'saved_models/model_TS_{math.ceil((iter_num + 1) / 2)}'
         else:
-            source_file = 'data/truth/trump1.txt'
-            test_file = 'data/truth/all_proc1.txt'
+            target_file = 'data/truth/trump.txt'
+            test_file = 'data/truth/all_proc.txt'
             gen_file = f'data/t_to_s/trump_fake_{math.ceil((iter_num + 1) / 2)}'
             model = f'saved_models/model_ST_{math.ceil((iter_num + 1) / 2)}'
 

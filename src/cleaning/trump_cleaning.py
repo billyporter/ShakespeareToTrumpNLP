@@ -52,6 +52,10 @@ def clean_trump_tweets():
         if key["isRetweet"] == 't':
             continue
 
+        if len(key["text"]) > 1 and key["text"][0:2] == "\"\"":
+            print(key["text"])
+            continue
+
         # # Filter out junk
         tweetText = key["text"]
         tweetText = remove_junk(tweetText)
@@ -97,7 +101,6 @@ def clean_speeches():
             line = pad_puncutation(line)
             line = line.strip()
             trump_lines.append(line)
-    print(trump_lines)
     return trump_lines
 
 

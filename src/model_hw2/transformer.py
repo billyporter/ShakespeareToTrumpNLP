@@ -70,7 +70,9 @@ def read_parallel(filename):
     where \t is a tab character.
     """
     data = []
-    for line in open(filename):
+    for i, line in enumerate(open(filename)):
+        if i == 25000:
+            break
         fline, eline = line.split('\t')
         fwords = ['<BOS>'] + fline.split() + ['<EOS>']
         ewords = ['<BOS>'] + eline.split() + ['<EOS>']
@@ -81,7 +83,9 @@ def read_parallel(filename):
 def read_mono(filename):
     """Read sentences from the file named by 'filename.' """
     data = []
-    for line in open(filename):
+    for i, line in enumerate(open(filename)):
+        if i == 30000:
+            break
         words = ['<BOS>'] + line.split() + ['<EOS>']
         data.append(words)
     return data
@@ -180,8 +184,7 @@ class Model(torch.nn.Module):
         Return:
             log-probability of ewords given fwords (scalar)"""
 
-        fnums = torch.tensor([self.fvocab.numberize(f) for f in fwords],
-                             device=self.dummy.device)
+        fnums = torch.tensor([self.fvocab.numberize(f) for f in fwords])
         fencs = self.enc(fnums)
         h = self.dec.start()
         logprob = 0.
@@ -203,8 +206,7 @@ class Model(torch.nn.Module):
             ewords: target sentence (list of str)
         """
 
-        fnums = torch.tensor([self.fvocab.numberize(f) for f in fwords],
-                             device=self.dummy.device)
+        fnums = torch.tensor([self.fvocab.numberize(f) for f in fwords])
         fencs = self.enc(fnums)
         h = self.dec.start()
         ewords = []
@@ -220,6 +222,7 @@ class Model(torch.nn.Module):
 
 def main(args):
     import argparse, sys
+    torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--train', type=str, help='training data')
@@ -275,10 +278,11 @@ def main(args):
         sys.exit()
 
     if args.train:
+        output_file = open('output.txt', 'w')
         opt = torch.optim.Adam(m.parameters(), lr=0.0003)
 
         best_dev_loss = None
-        for epoch in range(10):
+        for epoch in range(4):
             random.shuffle(traindata)
 
             ### Update model on train
@@ -303,6 +307,7 @@ def main(args):
                 if line_num < 10:
                     translation = m.translate(fwords)
                     print(' '.join(translation))
+                    print(' '.join(translation), file=output_file)
 
             if best_dev_loss is None or dev_loss < best_dev_loss:
                 best_model = copy.deepcopy(m)
@@ -313,6 +318,10 @@ def main(args):
             print(
                 f'[{epoch+1}] train_loss={train_loss} train_ppl={math.exp(train_loss/train_ewords)} dev_ppl={math.exp(dev_loss/dev_ewords)}',
                 flush=True)
+            print(
+                f'[{epoch+1}] train_loss={train_loss} train_ppl={math.exp(train_loss/train_ewords)} dev_ppl={math.exp(dev_loss/dev_ewords)}',
+                flush=True,
+                file=output_file)
 
         m = best_model
 
@@ -322,7 +331,7 @@ def main(args):
         with open(args.outfile, 'w') as outfile:
             for fwords in read_mono(args.infile):
                 translation = m.translate(fwords)
-                print(translation)
+                # print(translation)
                 print(' '.join(translation), file=outfile)
 
 
