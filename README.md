@@ -1,6 +1,7 @@
 # ShakespeareToTrumpNLP
 
 ## Files
+### The main results are in Trump_fake_1
     .
     ├── data
     │    ├── shakespeare  
@@ -30,7 +31,7 @@
              │    ├── s_to_t
              │    │    └── shake_fake_1                     # Pseudo Shakespeare data produced by IBT
              │    ├── t_to_s
-             │    │    └── trump_fake_1                     # Psuedo Trump data produced by IBT
+             │    │    └── trump_fake_1                     # Psuedo Trump data produced by IBT 
              │    ├── temp_combine.txt                      # Temporary total combined data of (source, target) (100%)
              │    ├── temp_dev.txt                          # Temporary combined dev data of (source, target) for training (80%)
              │    ├── temp_train.txt                        # Temporary total combined data of (source, target) (20%)
