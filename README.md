@@ -1,7 +1,7 @@
 # ShakespeareToTrumpNLP
 
 ## Files
-### The main results are in Trump_fake_3
+### The main results are in Trump_fake_2
     .
     ├── data
     │    ├── shakespeare  
