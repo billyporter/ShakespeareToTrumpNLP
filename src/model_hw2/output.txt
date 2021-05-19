@@ -1,0 +1,318 @@
+---------0 iteration---------
+27797
+22797.0
+['--train', 'data/temp_train.txt', '--dev', 'data/temp_dev.txt', '--save', 'saved_models/model_TS_1']
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22797/22797 [16:17<00:00, 23.31it/s]
+Therefore , go him .
+Did Antony say it ?
+This is but thy people .
+But tell us , thou art thou hear of Antonio , But , But , But what is the sea ?
+I ’ s son to be so , and the son .
+Before I saw Lysander , as he would be so .
+They are .
+For the children , not the other way .
+The three of the world are known .
+He hath them , an an an ass , and the last .
+[1] train_loss=1339027.1494104862 train_ppl=93.55955124981857 dev_ppl=60.806921760912566
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22797/22797 [16:19<00:00, 23.26it/s]
+What , go , I go him .
+Didst say any any ?
+This hour but you more days .
+But tell us , I hear of Antonio ’ s old man ?
+I am not to be Sir Hamlet , as it is son , and his son , I would not be not , I have said to be done .
+Before I saw Lysander , Lysander , like me , as I have me , I saw me , Lysander .
+They are coming .
+For the children , not children , the other .
+The three that three world are known .
+He hath them , like an ass , in the first of his hand , and then , and then be made .
+[2] train_loss=1101448.5433812141 train_ppl=41.818196161233374 dev_ppl=49.78782151223093
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22797/22797 [16:27<00:00, 23.08it/s]
+Edmund , go find him .
+Did anything say any ?
+This hour is no more than the days .
+But tell us , you , Antonio ’ s the sea ?
+I am as I to be Sir Hamlet , and his son , and I would not be as I never should be said , and a son to be said .
+Before I saw Lysander , like the like me , as I saw me .
+They are come .
+For that children , not the other way .
+The three that the world are known .
+He hath them , like an an instant , and his hand , and when the last , and then , and then , And then , And then , And then , And then , and the last .
+[3] train_loss=1008115.9442272186 train_ppl=30.477329465528225 dev_ppl=46.4365693174238
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22797/22797 [16:20<00:00, 19.05it/s]
+Edmund , go to him .
+Did Cicero say any ?
+This hour is a hour of your days .
+But tell us , you did hear the sea ’ s at sea ?
+I am as Sir , I am a son , And not son , and I never would not be son , and when I never were a son .
+Before I saw Lysander , like the truth with me .
+They are come .
+For the children , the other children , in the way .
+The three that the world are known to your world .
+He hath them , like an an ass , in the first of his first , And then , And so now at the last .
+[4] train_loss=950067.8793849945 train_ppl=25.033894472706898 dev_ppl=45.5181027083653
+['--load', 'saved_models/model_TS_1', '--outfile', 'data/s_to_t/shake_fake_1', 'data/truth/trump.txt']
+---------1 iteration---------
+30000
+25000.0
+['--train', 'data/temp_train.txt', '--dev', 'data/temp_dev.txt', '--save', 'saved_models/model_ST_1']
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [37:03<00:00, 11.24it/s]
+It is a very sad to the most of the most important for our Country . They are very sad !
+Joe Biden can be doing well in the best in the Fake News Media . They are going to do well .
+Join me tomorrow tomorrow tomorrow at 7 pm ET on Fox & , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , VOTE !
+Joe Biden has been been going to announce that the most important , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 , 000 . . . . . . . . . . .
+THANK YOU !
+They have not have to have to the people , and the people of the people . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+THANK YOU !
+MAKE AMERICA GREAT AGAIN !
+. . . . . . . . is a very well , and the people are going to have done . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+This is in a disaster and the world .
+[1] train_loss=3425513.343381405 train_ppl=270.2378757065768 dev_ppl=191.93033802985482
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [37:06<00:00, 10.04it/s]
+It is a friend of the President of the USA for the USA in the United States , and very much more than the USA , and the USA
+Entrepreneurs: Be well , I can be a good luck .
+Join me tomorrow at 10:00 A . M . on NBC .
+Obama did not been done to the White House , on the Trump .
+THANK YOU ! #MAGA
+Entrepreneurs: Be not look forward , and as a lot of the economy .
+THANK YOU Thanks !
+THANK YOU ! #MAGA
+. . . . .
+This is in a tremendous leader and the Trump Tower in today's #trumpvlog
+[2] train_loss=3006052.466934204 train_ppl=136.13634600579323 dev_ppl=161.78098508426183
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:52<00:00, 11.30it/s]
+It is a friend of the most of the most important for his very strong on the Border , and many other very bad for the Democrats . .
+Entrepreneurs: Keep up well in the good luck in the good luck .
+Join me tomorrow at 10 pm on Fox & , 000 jobs in Iowa .
+Via Newsmax_Media by Hillary Clinton , Donald Trump , Trump , Trump National Doral .
+THANK YOU ! #MAGA
+Entrepreneurs: Keep not look and look at the good , as the new book , no strength .
+Thanks Thanks !
+MAKE AMERICA GREAT AGAIN !
+. . . . . I will be doing a great job on the White House , and the House , and the Democrats are going to get it !
+This is in a man and a GREAT AGAIN !
+[3] train_loss=2858718.6297397614 train_ppl=106.99978479109649 dev_ppl=152.41274589062752
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:48<00:00, 11.32it/s]
+It is a friend of the most important for his own most important for the United States in the very strong and the USA is a very bad for the USA .
+Entrepreneurs: Keep well in the good news for the good luck .
+Join me tomorrow at 9 P . M . on Fox & , Friends tomorrow .
+Via BreitbartNews by me on Fox & , Friends at 7 , 000 , 000 , 000 , 000 , 000 , 000 , 000 jobs , 000 , 000 jobs , 000 jobs , 000 jobs , 000 jobs , 000 jobs , 000 jobs , 000 jobs .
+THANK YOU ! #MAGA
+Entrepreneurs: Keep not look forward to the big , as the real estate is a big deal .
+THANK YOU Thanks !
+THANK YOU ! #MAGA
+. . . . . I am doing a big deal with China , and China . They are not a deal with the USA , and the USA is a lot of the USA , and we are going to be able to help . . . . . . . . . . . . . . . .
+This is in a man and Jeb Bush . He is a disaster and a disaster in the Democrats and get the USA in the USA
+[4] train_loss=2768547.6571965218 train_ppl=92.33603198412655 dev_ppl=148.73843189100708
+['--load', 'saved_models/model_ST_1', '--outfile', 'data/t_to_s/trump_fake_1', 'data/truth/all_proc.txt']
+---------2 iteration---------
+30000
+25000.0
+['--train', 'data/temp_train.txt', '--dev', 'data/temp_dev.txt', '--save', 'saved_models/model_TS_2']
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [09:43<00:00, 42.87it/s]
+There's I will me , what thou hast you ,
+By the matter , come , not , not ,
+These are the very heart of the other .
+What a death .
+Ah , do not ,
+and every day in my grace .
+There's we are we from our own ,
+I am my lord ,
+Shall be for me for you ,
+And then they are their own .
+[1] train_loss=1140180.1827640533 train_ppl=107.08227420862582 dev_ppl=72.08285662608017
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [09:40<00:00, 44.78it/s]
+I'll be on me what I will you
+By the matter , come , not ,
+These are the matter of the world .
+What a thousand one , one ?
+Yes , do not , not ,
+and every day my lord .
+I'll have we from our lords ,
+I am my lord , my lord ,
+Shall I for me , for you ,
+And then they are their heads of him .
+[2] train_loss=972080.6641483307 train_ppl=53.7615051830344 dev_ppl=64.20728375054618
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [09:41<00:00, 42.99it/s]
+'Tis so , what thou hast thou on the
+By the matter , come not , not be not
+These are the matter of the world ,
+What a thousand a thousand men ?
+Ah , do not , not !
+and every day to my grace .
+I'll have we from our lords , and our
+I am my lord .
+Shall I for me for a coward , thou art a
+And then they are their own .
+[3] train_loss=921606.949751854 train_ppl=43.713893819712474 dev_ppl=62.15226366593703
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [09:43<00:00, 42.88it/s]
+I'll be a man , what shall you be in the
+By the matter , come , not they are ,
+These are the hand of mine own .
+What a death , a thousand men ?
+Ah , do not do !
+and every day to his grace .
+I'll have we from our eyes , and our eyes
+I am my lord , my lord ,
+Shall I for me , for you are ,
+And then they are their own .
+[4] train_loss=889347.0905385017 train_ppl=38.29934738572803 dev_ppl=62.23951595198417
+['--load', 'saved_models/model_TS_2', '--outfile', 'data/s_to_t/shake_fake_2', 'data/truth/trump.txt']
+---------3 iteration---------
+30000
+25000.0
+['--train', 'data/temp_train.txt', '--dev', 'data/temp_dev.txt', '--save', 'saved_models/model_ST_2']
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:50<00:00, 11.31it/s]
+MAKE AMERICA GREAT AGAIN !
+I was a lot of the power , and the Republican Party was a great job !
+Watching Thanks .
+Why do the Fake News Media is what is doing a great job . ” – Think Like a great job !
+Entrepreneurs: should be interviewed on foxandfriends at 9 pm on the Great State of the United States .
+Why is a very good , or a very good , and the Republican Party , and the Republican Party , and , and , and , and , and , and the Republican Party , and the Republican Party , and , and , and , and , and the Republican Party . . . . .
+Statement True , and what is a great job .
+. . . .
+Why did the last night in the Republican Party , and the Republican Party , and the Republican Party , and the Republican Party , and the USA , and the USA , and the American people of the Republican Party , and the American people of the USA , and the USA !
+Really bad , the United States . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[1] train_loss=3418694.514863968 train_ppl=271.1300754825455 dev_ppl=193.3245431747347
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:41<00:00, 11.28it/s]
+MAKE AMERICA GREAT AGAIN !
+I was right !
+“Donald Trump .
+Why do the same time , what is what is the best to do the best to do the same time .
+Entrepreneurs: Be sure to be interviewed on FoxNews .
+Why is or a very good man , a good man who got it is a great job .
+our country , what is a great job .
+. . . .
+“Donald Trump Tower last night in the debate .
+Really bad , the United States , the great job , and true , and true , and the best of the United States , and the United States , and the people are doing a true , and the United States , and the people are true , and the United States . . . . . . . . . . . . . . . . .
+[2] train_loss=3024980.5439977646 train_ppl=142.22003251339353 dev_ppl=167.96334258061376
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:44<00:00, 11.34it/s]
+MAKE AMERICA GREAT AGAIN .
+I was right !
+Lightweight A . . . .
+Why is the good , what is what is about the people of the people of the people of the people of the people of the USA !
+Entrepreneurs: See you at 9 P . M .
+Why is a big deal with a very good person , and the people of the people of the Republican Party .
+our Country is what a great job . ” – Think Big
+. . . . .
+Why is the last night in the USA , we are a big deal with the USA , and the USA .
+Really bad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[3] train_loss=2889370.266579151 train_ppl=113.87889848000341 dev_ppl=158.4170448867454
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:54<00:00, 11.29it/s]
+MAKE AMERICA GREAT AGAIN .
+I was right !
+LAW &; ORDER .
+Why is the good , what is what is going to do is going to do . ” – Think Like a Champion
+Congressman should be on the White House at the White House . He should be a great job . He should be a great job !
+Why is a very good man , and a very good man , and the people of the people who are doing a great job .
+our Country is what is doing . ” – Think Like a Champion
+. . . . the world is a great job !
+Why is the last night in our great new jobs , and we are the USA , and we are going to get out of the USA !
+Really bad . . . . . . . . . . . . . . . . . . . . . .
+[4] train_loss=2803444.370510578 train_ppl=98.92076465389586 dev_ppl=155.05759548213513
+['--load', 'saved_models/model_ST_2', '--outfile', 'data/t_to_s/trump_fake_2', 'data/truth/all_proc.txt']
+---------4 iteration---------
+30000
+25000.0
+['--train', 'data/temp_train.txt', '--dev', 'data/temp_dev.txt', '--save', 'saved_models/model_TS_3']
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [09:44<00:00, 42.75it/s]
+no , no ?
+And , the very gracious , and we are ,
+And what the king !
+And , the king .
+And , a power as a great .
+And that we are they are gone ,
+And , that have been a power and
+And , the great of the king ,
+A great to be such as such as a man was
+stand with the other .
+[1] train_loss=1168672.6190021038 train_ppl=121.13385861702928 dev_ppl=79.85445343949115
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [09:50<00:00, 42.37it/s]
+no more ?
+And , my lord , and we are ,
+And , ! thou art thou art thou
+And , the devil .
+And made as a man as he is a king .
+And that we that we be gone ,
+And that will have been a king and
+And , the great of the great ,
+A great hope to be such as a man ,
+stand , but the world , we are a child .
+[2] train_loss=1006974.681180954 train_ppl=62.37696313608528 dev_ppl=71.62854303326765
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [09:44<00:00, 42.76it/s]
+no , sir ?
+And , and the sword , and others
+And you !
+And , sir .
+And , as in a thousand of a thousand .
+And that we that we are gone ,
+And that will have him to be a man
+And , the great of the great duke ,
+A great as he was such as never
+stand with him .
+[3] train_loss=957923.2941784859 train_ppl=51.00181776520927 dev_ppl=69.67923729097646
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [09:48<00:00, 42.49it/s]
+no man ?
+And , and his body , and the world ,
+And , sir !
+And , sir .
+And , who is as a man .
+And , that we are here , to the world .
+And , that have been a cup of Syracuse and
+And , sir , of the great man ,
+A great as a man as a man was never
+stand with the world , we are a thousand .
+[4] train_loss=926278.4360117912 train_ppl=44.789458176936044 dev_ppl=70.15483090027023
+['--load', 'saved_models/model_TS_3', '--outfile', 'data/s_to_t/shake_fake_3', 'data/truth/trump.txt']
+---------5 iteration---------
+30000
+25000.0
+['--train', 'data/temp_train.txt', '--dev', 'data/temp_dev.txt', '--save', 'saved_models/model_ST_3']
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:58<00:00,  9.57it/s]
+Last week . He is a major deal in the USA is a great job on the USA
+Today , you to you to be a great job on the great job on the USA
+Great job on the great people of the Great job . .
+See you Thank you .
+The United States was a very bad that all of the most important to the American people of the American people of the American people of the USA !
+Today You have to the great !
+Today , Thanks , you have a great job , but the only have a great job .
+The Democrats are in our country . . . . . . . . . . .
+An honor to make a great job on the people of the best of the best of the best of the best of the USA .
+Last week on the news conference on the news !
+[1] train_loss=3409945.9130735397 train_ppl=266.80357691968123 dev_ppl=187.34764717727887
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:53<00:00, 10.02it/s]
+Entrepreneurs: Be sure to be a big crowd in the White House .
+Heading to the WhiteHouse to the White House & , a great job on the White House .
+Great job on the White House , and the Great State of Pennsylvania . Great Again !
+See you soon !
+The American was a great that was all of the way to all of the United States , and the United States , and all of the USA , and the USA was a great honor to be a great honor to be a great honor to be a great job !
+Heading to have to the WhiteHouse !
+Heading to the Republican Party , but the Radical Left Democrats , but they are not have been a great job .
+The media is our great honor to be in the USA .
+An honor to make a great job on the Republican Party .
+Entrepreneurs: It's a news for his news conference at the next week ?
+[2] train_loss=3012965.8594093323 train_ppl=139.23184496621136 dev_ppl=164.25900404047815
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:59<00:00, 11.27it/s]
+Entrepreneurs: Be careful , a great job in the USA
+Entrepreneurs: Don't believe that you are going to be a great job .
+Great meeting with the White House . The White House , and the White House . The White House .
+See you soon .
+The United States was a very good to all of the people of the United States , and the United States , and the USA , and the USA , and all of the USA , and the USA , and the USA , we will be a great job !
+Heading to Iowa !
+Today , the WhiteHouse , the WhiteHouse , but we are just a great job .
+The Democrats are our Country . We are doing a great job . They are doing a very good !
+An honor to make a great job . We will make a great job . We will make a great job .
+Entrepreneurs: Keep a good news for the news !
+[3] train_loss=2880247.4308109283 train_ppl=112.02341998223048 dev_ppl=156.29624451844572
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25000/25000 [36:45<00:00, 11.34it/s]
+Entrepreneurs: Be sure to be in the new book in Las Vegas .
+Entrepreneurs: Be sure to be on the new book , ” – Think Like a Champion
+Great to be doing a great job on the Great job . Great job .
+See you soon .
+The United States was a very sad that is all of the United States , and all of the United States , and all of the USA , and all of the USA , and the USA is a very important thing to be a big deal . . . . . . . . . . . .
+Heading to New Hampshire !
+Today , the people of the WhiteHouse , but we have just like a great job , and the people of the USA , we have been a great job .
+The media is being in our great country . . .
+An amazing people who make a big crowd , make a great job on the great job .
+Entrepreneurs: Keep a good news conference and the news ?
+[4] train_loss=2796113.289724827 train_ppl=97.59936958713756 dev_ppl=154.4403646716367
+['--load', 'saved_models/model_ST_3', '--outfile', 'data/t_to_s/trump_fake_3', 'data/truth/all_proc.txt']
